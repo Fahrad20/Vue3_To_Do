@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+button,
+input,
+.my-style {
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+.my-list {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 100%;
+  grid-gap: 5px;
+}
